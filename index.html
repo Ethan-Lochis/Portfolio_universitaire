@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel - Développeur Fullstack & Designer">
+    <title>Ethan | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Ethan</span>
+            </a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="comprendre/index.html" class="nav-link" data-category="comprendre">Comprendre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="concevoir/index.html" class="nav-link" data-category="concevoir">Concevoir</a>
+                </li>
+                <li class="nav-item">
+                    <a href="exprimer/index.html" class="nav-link" data-category="exprimer">Exprimer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="developper/index.html" class="nav-link" data-category="developper">Développer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="entreprendre/index.html" class="nav-link" data-category="entreprendre">Entreprendre</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-background">
+                <div class="gradient-orb orb-1"></div>
+                <div class="gradient-orb orb-2"></div>
+                <div class="gradient-orb orb-3"></div>
+            </div>
+            
+            <div class="hero-content">
+                
+                <h1 class="hero-title">
+                    <span class="title-line">Salut, moi c'est</span>
+                    <span class="title-name">Ethan LOCHIS</span>
+                </h1>
+                
+                <p class="hero-subtitle">Etudiant en BUT MMI</p>
+                
+                <p class="hero-description">
+                    Passionné par la création d'expériences numériques uniques, 
+                    je combine design et développement pour donner vie à des projets innovants.
+                </p>
+
+                <div class="hero-cta">
+                    <a href="#competences" class="btn btn-primary">
+                        Découvrir mes compétences
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:lochis.ethan@gmail.com" class="btn btn-secondary">
+                        Me contacter
+                    </a>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="mouse-wheel"></div>
+                </div>
+                <span>Scroll</span>
+            </div>
+        </section>
+
+        <!-- Competences Overview -->
+        <section class="competences" id="competences">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Compétences</span>
+                    <h2 class="section-title">Explorer mes compétences</h2>
+                    <p class="section-description">
+                        Découvrez mes différentes compétences à travers mes projets Universitaires concrets et mes réalisations variées.
+                    </p>
+                </div>
+
+                <div class="competences-flex">
+                    <a href="comprendre/index.html" class="competence-card" data-category="comprendre">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 16v-4M12 8h.01"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Comprendre</h3>
+                        <p class="card-description">Comprendre les écosystèmes, les besoins des utilisateurs et les dispositifs de communication numérique.</p>
+                        <span class="card-arrow">→</span>
+                    </a>
+
+                    <a href="concevoir/index.html" class="competence-card" data-category="concevoir">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Concevoir</h3>
+                        <p class="card-description">Concevoir ou co-concevoir une réponse stratégique pertinente à une problématique complexe.</p>
+                        <span class="card-arrow">→</span>
+                    </a>
+
+                    <a href="exprimer/index.html" class="competence-card" data-category="exprimer">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Exprimer</h3>
+                        <p class="card-description">Exprimer un message avec les médias numériques pour informer et communiquer.</p>
+                        <span class="card-arrow">→</span>
+                    </a>
+
+                    <a href="developper/index.html" class="competence-card" data-category="developper">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <polyline points="16,18 22,12 16,6"/>
+                                <polyline points="8,6 2,12 8,18"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Développer</h3>
+                        <p class="card-description">Développer pour le web et les médias numériques.</p>
+                        <span class="card-arrow">→</span>
+                    </a>
+
+                    <a href="entreprendre/index.html" class="competence-card" data-category="entreprendre">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">Entreprendre</h3>
+                        <p class="card-description">Gestion de projets, stratégie et esprit entrepreneurial.</p>
+                        <span class="card-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Ethan. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="mailto:lochis.ethan@gmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/ethan-lochis-74120a332/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://github.com/Ethan-Lochis" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
