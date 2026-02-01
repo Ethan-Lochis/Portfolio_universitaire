@@ -1,187 +1,264 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Exprimer - Communication visuelle et rédaction">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Exprimer - Communication visuelle et rédaction"
+    />
     <title>Exprimer | Ethan Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body data-category="exprimer">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-category="exprimer">
     <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="../index.html" class="nav-logo">
-                <span class="logo-text">Ethan</span>
-            </a>
-            
-            <button class="hamburger" id="hamburger" aria-label="Menu">
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-            </button>
+    <nav
+      class="navbar"
+      id="navbar"
+      role="navigation"
+      aria-label="Navigation principale"
+    >
+      <div class="nav-container">
+        <a href="../index.html" class="nav-logo">
+          <span class="logo-text">Ethan</span>
+        </a>
 
-            <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item">
-                    <a href="../comprendre/index.html" class="nav-link" data-category="comprendre">Comprendre</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../concevoir/index.html" class="nav-link" data-category="concevoir">Concevoir</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../exprimer/index.html" class="nav-link active" data-category="exprimer">Exprimer</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../developper/index.html" class="nav-link" data-category="developper">Développer</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../entreprendre/index.html" class="nav-link" data-category="entreprendre">Entreprendre</a>
-                </li>
-            </ul>
-        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu" role="menubar">
+          <li class="nav-item">
+            <a
+              href="../comprendre/index.html"
+              class="nav-link"
+              data-category="comprendre"
+              >Comprendre</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="../concevoir/index.html"
+              class="nav-link"
+              data-category="concevoir"
+              >Concevoir</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="../exprimer/index.html"
+              class="nav-link active"
+              data-category="exprimer"
+              >Exprimer</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="../developper/index.html"
+              class="nav-link"
+              data-category="developper"
+              >Développer</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="../entreprendre/index.html"
+              class="nav-link"
+              data-category="entreprendre"
+              >Entreprendre</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <main class="category-page">
-        <!-- Category Header -->
-        <header class="category-header">
-            <div class="container">
-                <div class="header-content">
-                    <span class="category-tag">Compétence</span>
-                    <h1 class="category-title">Exprimer</h1>
-                    <p class="category-description">
-                        Communication visuelle et rédaction de contenus impactants. 
-                        Transmettre des idées claires à travers différents supports et formats.
-                    </p>
-                </div>
-            </div>
-            <div class="header-gradient"></div>
-        </header>
+      <!-- Category Header -->
+      <header class="category-header">
+        <div class="container">
+          <hgroup class="header-content">
+            <span class="category-tag">Compétence</span>
+            <h1 class="category-title">Exprimer</h1>
+            <p class="category-description">
+              Communication visuelle et rédaction de contenus impactants.
+              Transmettre des idées claires à travers différents supports et
+              formats.
+            </p>
+          </hgroup>
+        </div>
+        <div class="header-gradient" aria-hidden="true"></div>
+      </header>
 
-        <!-- Projects Section -->
-        <section class="projects-section">
-            <div class="container">
-                
-                <!-- Project Card 1 -->
-                <article class="project-card">
-                    <div class="project-visual">
-                        <div class="visual-placeholder">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <rect x="3" y="3" width="18" height="18" rx="2"/>
-                                <circle cx="8.5" cy="8.5" r="1.5"/>
-                                <path d="M21 15l-5-5L5 21"/>
-                            </svg>
-                            <span>Image du projet</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h2 class="project-title">Identité Visuelle - Startup</h2>
-                        <p class="project-description">
-                            Création complète de l'identité visuelle d'une startup tech. Logo, 
-                            charte graphique, templates de présentation et guidelines pour 
-                            assurer une communication cohérente.
-                        </p>
-                        <div class="project-badges">
-                            <span class="badge">Illustrator</span>
-                            <span class="badge">Branding</span>
-                            <span class="badge">Logo Design</span>
-                            <span class="badge">Guidelines</span>
-                        </div>
-                    </div>
-                </article>
+      <!-- Projects Section -->
+      <section class="projects-section">
+        <div class="container">
+          <!-- Project Card 1 -->
+          <article class="project-card">
+            <figure class="project-visual">
+              <figcaption class="visual-placeholder">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <circle cx="8.5" cy="8.5" r="1.5" />
+                  <path d="M21 15l-5-5L5 21" />
+                </svg>
+                <span>Image du projet</span>
+              </figcaption>
+            </figure>
+            <section class="project-content">
+              <h2 class="project-title">Identité Visuelle - Startup</h2>
+              <p class="project-description">
+                Création complète de l'identité visuelle d'une startup tech.
+                Logo, charte graphique, templates de présentation et guidelines
+                pour assurer une communication cohérente.
+              </p>
+              <ul class="project-badges">
+                <li class="badge">Illustrator</li>
+                <li class="badge">Branding</li>
+                <li class="badge">Logo Design</li>
+                <li class="badge">Guidelines</li>
+              </ul>
+            </section>
+          </article>
 
-                <!-- Project Card 2 -->
-                <article class="project-card reverse">
-                    <div class="project-visual">
-                        <div class="visual-placeholder">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <rect x="3" y="3" width="18" height="18" rx="2"/>
-                                <circle cx="8.5" cy="8.5" r="1.5"/>
-                                <path d="M21 15l-5-5L5 21"/>
-                            </svg>
-                            <span>Image du projet</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h2 class="project-title">Motion Design - Vidéo Promotionnelle</h2>
-                        <p class="project-description">
-                            Réalisation d'une vidéo motion design pour le lancement d'un produit. 
-                            Storyboarding, animation et sound design pour créer un contenu 
-                            engageant et mémorable.
-                        </p>
-                        <div class="project-badges">
-                            <span class="badge">After Effects</span>
-                            <span class="badge">Motion Design</span>
-                            <span class="badge">Storyboard</span>
-                            <span class="badge">Premiere Pro</span>
-                        </div>
-                    </div>
-                </article>
+          <!-- Project Card 2 -->
+          <article class="project-card reverse">
+            <figure class="project-visual">
+              <figcaption class="visual-placeholder">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <circle cx="8.5" cy="8.5" r="1.5" />
+                  <path d="M21 15l-5-5L5 21" />
+                </svg>
+                <span>Image du projet</span>
+              </figcaption>
+            </figure>
+            <section class="project-content">
+              <h2 class="project-title">
+                Motion Design - Vidéo Promotionnelle
+              </h2>
+              <p class="project-description">
+                Réalisation d'une vidéo motion design pour le lancement d'un
+                produit. Storyboarding, animation et sound design pour créer un
+                contenu engageant et mémorable.
+              </p>
+              <ul class="project-badges">
+                <li class="badge">After Effects</li>
+                <li class="badge">Motion Design</li>
+                <li class="badge">Storyboard</li>
+                <li class="badge">Premiere Pro</li>
+              </ul>
+            </section>
+          </article>
 
-                <!-- Project Card 3 -->
-                <article class="project-card">
-                    <div class="project-visual">
-                        <div class="visual-placeholder">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <rect x="3" y="3" width="18" height="18" rx="2"/>
-                                <circle cx="8.5" cy="8.5" r="1.5"/>
-                                <path d="M21 15l-5-5L5 21"/>
-                            </svg>
-                            <span>Image du projet</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h2 class="project-title">Rédaction Web & SEO</h2>
-                        <p class="project-description">
-                            Stratégie de contenu et rédaction d'articles optimisés pour le SEO. 
-                            Création de contenus engageants qui améliorent le référencement 
-                            naturel et l'expérience utilisateur.
-                        </p>
-                        <div class="project-badges">
-                            <span class="badge">Copywriting</span>
-                            <span class="badge">SEO</span>
-                            <span class="badge">Content Strategy</span>
-                            <span class="badge">WordPress</span>
-                        </div>
-                    </div>
-                </article>
+          <!-- Project Card 3 -->
+          <article class="project-card">
+            <figure class="project-visual">
+              <figcaption class="visual-placeholder">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <circle cx="8.5" cy="8.5" r="1.5" />
+                  <path d="M21 15l-5-5L5 21" />
+                </svg>
+                <span>Image du projet</span>
+              </figcaption>
+            </figure>
+            <section class="project-content">
+              <h2 class="project-title">Rédaction Web & SEO</h2>
+              <p class="project-description">
+                Stratégie de contenu et rédaction d'articles optimisés pour le
+                SEO. Création de contenus engageants qui améliorent le
+                référencement naturel et l'expérience utilisateur.
+              </p>
+              <ul class="project-badges">
+                <li class="badge">Copywriting</li>
+                <li class="badge">SEO</li>
+                <li class="badge">Content Strategy</li>
+                <li class="badge">WordPress</li>
+              </ul>
+            </section>
+          </article>
+        </div>
+      </section>
 
-            </div>
-        </section>
-
-        <!-- Navigation Arrows -->
-        <nav class="category-nav">
-            <div class="container">
-                <a href="../concevoir/index.html" class="nav-arrow prev">
-                    <span class="arrow-icon">←</span>
-                    <span class="arrow-text">Concevoir</span>
-                </a>
-                <a href="../developper/index.html" class="nav-arrow next">
-                    <span class="arrow-text">Développer</span>
-                    <span class="arrow-icon">→</span>
-                </a>
-            </div>
-        </nav>
+      <!-- Navigation Arrows -->
+      <nav
+        class="category-nav"
+        role="navigation"
+        aria-label="Navigation entre catégories"
+      >
+        <div class="container">
+          <a
+            href="../concevoir/index.html"
+            class="nav-arrow prev"
+            aria-label="Aller à Concevoir"
+          >
+            <span class="arrow-icon">←</span>
+            <span class="arrow-text">Concevoir</span>
+          </a>
+          <a
+            href="../developper/index.html"
+            class="nav-arrow next"
+            aria-label="Aller à Développer"
+          >
+            <span class="arrow-text">Développer</span>
+            <span class="arrow-icon">→</span>
+          </a>
+        </div>
+      </nav>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2026 Ethan. Tous droits réservés.</p>
-                <div class="footer-links">
-                    <a href="mailto:contact@ethan.dev">Email</a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
-                    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
-                </div>
-            </div>
-        </div>
+      <div class="container">
+        <section class="footer-content">
+          <p>&copy; 2026 Ethan. Tous droits réservés.</p>
+          <nav class="footer-links" aria-label="Liens de contact">
+            <a href="mailto:lochis.ethan@gmail.com">Email</a>
+            <a
+              href="https://www.linkedin.com/in/ethan-lochis-74120a332/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/Ethan-Lochis"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+          </nav>
+        </section>
+      </div>
     </footer>
 
     <script src="../js/main.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
