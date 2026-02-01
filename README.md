@@ -1,3 +1,5 @@
+# ⚠️ Site en Construction ⚠️
+
 # 🎓 Portfolio Universitaire - BUT MMI
 
 <p align="center">
@@ -52,13 +54,13 @@ Portfolio/
 
 ## 🎨 Compétences présentées
 
-| Compétence | Description | Couleur |
-|------------|-------------|---------|
-| **Comprendre** | Comprendre les écosystèmes, les besoins des utilisateurs et les dispositifs de communication numérique | 🟣 Violet |
-| **Concevoir** | Concevoir ou co-concevoir une réponse stratégique pertinente à une problématique complexe | 🔵 Cyan |
-| **Exprimer** | Exprimer un message avec les médias numériques pour informer et communiquer | 🔴 Rose |
-| **Développer** | Développer pour le web et les médias numériques | 🔷 Bleu |
-| **Entreprendre** | Entreprendre dans le secteur du numérique | 🟠 Orange |
+| Compétence       | Description                                                                                            | Couleur   |
+| ---------------- | ------------------------------------------------------------------------------------------------------ | --------- |
+| **Comprendre**   | Comprendre les écosystèmes, les besoins des utilisateurs et les dispositifs de communication numérique | 🟣 Violet |
+| **Concevoir**    | Concevoir ou co-concevoir une réponse stratégique pertinente à une problématique complexe              | 🔵 Cyan   |
+| **Exprimer**     | Exprimer un message avec les médias numériques pour informer et communiquer                            | 🔴 Rose   |
+| **Développer**   | Développer pour le web et les médias numériques                                                        | 🔷 Bleu   |
+| **Entreprendre** | Entreprendre dans le secteur du numérique                                                              | 🟠 Orange |
 
 ## ✨ Fonctionnalités
 
@@ -79,6 +81,7 @@ Portfolio/
 ## 🚀 Installation
 
 1. Cloner le repository
+
 ```bash
 git clone https://github.com/Ethan-Lochis/Portfolio_universitaire.git
 ```
@@ -88,6 +91,7 @@ git clone https://github.com/Ethan-Lochis/Portfolio_universitaire.git
 ## 👤 Auteur
 
 **Ethan LOCHIS**
+
 - 📧 Email: [lochis.ethan@gmail.com](mailto:lochis.ethan@gmail.com)
 - 💼 LinkedIn: [Ethan Lochis](https://www.linkedin.com/in/ethan-lochis-74120a332/)
 - 🐙 GitHub: [@Ethan-Lochis](https://github.com/Ethan-Lochis)
