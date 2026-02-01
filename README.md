@@ -1,4 +1,4 @@
-# ⚠️ Site en Construction ⚠️
+<h1 align="center">⚠️ Site en Construction ⚠️</h1>
 
 # 🎓 Portfolio Universitaire - BUT MMI
 
